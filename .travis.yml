@@ -2,7 +2,7 @@ language: csharp
 mono:
   - latest
 install:
-  - curl -sSl https://raw.girhubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
+  - curl -sSl https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
   - dnvm upgrade
   - dnu restore
 script:
