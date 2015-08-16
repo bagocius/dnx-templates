@@ -1,6 +1,9 @@
 language: csharp
-sudo: false
 mono:
-  - alpha
+  - latest
+install:
+  - curl -sSl https://raw.girhubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
+  - dnvm upgrade
+  - dnu restore
 script:
-  - ./build.sh --quiet verify
+  - dnx /home/travis/build/bagocius/dnx-templates/test/dnx-templates.tests/project.json test -parallel none
