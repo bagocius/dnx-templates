@@ -1,0 +1,11 @@
+{
+  "preset": "google",
+  "excludeFiles": [
+    "node_modules/**",
+    ".sass-cache/**",
+    "assets/lib/**",
+    "assets/bower_components/**",
+    "wwwroot/assets/lib/**",
+    "wwwroot/assets/bower_components/**"
+  ]
+}

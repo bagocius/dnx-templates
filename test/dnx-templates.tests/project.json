@@ -1,0 +1,68 @@
+{
+  "version": "0.0.1",
+  "description": "dnx-templates.tests",
+  "summary": "A standard test project for testing the dnx-templates projects using xUnit.net.",
+  "authors": [""],
+  "commands": {
+    "test": "xunit.runner.dnx"
+  },
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {}
+    },
+    "dnxcore50": {
+      "dependencies": {}
+    }
+  },
+  "dependencies": {
+    "xunit": "2.1.0-beta4-*",
+    "xunit.runner.dnx": "2.1.0-beta4-*",
+    "lib.classLibrary": "",
+    "lib.classLibrary_min": ""
+  },
+  "scripts": {
+    "prerestore": "",
+    "postrestore": "",
+    "prebuild": "",
+    "postbuild": "",
+    "prepack": "",
+    "postpack": ""
+  },
+  "configurations": {
+    "Debug": {
+      "compilationOptions": {
+        "define": ["DEBUG", "TRACE"]
+      }
+    },
+    "Release": {
+      "compilationOptions": {
+        "define": ["RELEASE", "TRACE"],
+        "optimize": true
+      }
+    }
+  },
+  "compilationOptions": {
+    "define": ["SOMETHING"],
+    "allowUnsafe": true,
+    "warningsAsErrors" : true,
+    "languageVersion": "experimental"
+  },
+  "compile": ["**/*.cs"],
+  "exclude": [
+    "wwwroot",
+    "node_modules",
+    "bower_components"
+  ],
+  "packExclude": [
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
+  ],
+  "publishExclude": [
+    "node_modules",
+    "bower_components",
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": "0.0.1",
+  "description": "app.aspnet.static",
+  "summary": "A standard ASP.NET 5 Static Web App project template targeting .NET Core 5.0 and .NET Framework 4.5.1.",
+  "authors": [""],
+  "webroot": "wwwroot",
+  "commands": {
+    "kestrel": "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://localhost:5001",
+    "kestrel-development": "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://localhost:5001 --ASPNET_ENV development",
+    "kestrel-staging": "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://localhost:5001 --ASPNET_ENV staging",
+    "kestrel-production": "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://localhost:5001 --ASPNET_ENV production",
+    "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5001",
+    "iis": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.IIS --server.urls http://localhost:5001"
+  },
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {}
+    },
+    "dnxcore50": {
+      "dependencies": {}
+    }
+  },
+  "dependencies": {
+    "Kestrel": "1.0.0-beta6",
+    "Microsoft.AspNet.Diagnostics": "1.0.0-beta6",
+    "Microsoft.AspNet.Hosting": "1.0.0-beta6",
+    "Microsoft.AspNet.Server.IIS": "1.0.0-beta6",
+    "Microsoft.AspNet.Server.WebListener": "1.0.0-beta6",
+    "Microsoft.AspNet.StaticFiles": "1.0.0-beta6",
+    "Microsoft.Framework.Configuration.Abstractions": "1.0.0-beta6",
+    "Microsoft.Framework.Configuration.Json": "1.0.0-beta6",
+    "Microsoft.Framework.Configuration.UserSecrets": "1.0.0-beta6",
+    "Microsoft.Framework.Logging": "1.0.0-beta6",
+    "Microsoft.Framework.Runtime": "1.0.0-beta6",
+    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-beta6",
+    "Serilog.Framework.Logging": "1.0.0-beta-43"
+  },
+  "scripts": {
+    "prerestore": "",
+    "postrestore": "",
+    "prebuild": "",
+    "postbuild": "",
+    "prepack": "",
+    "postpack": ""
+  },
+  "configurations": {
+    "debug": {
+      "compilationOptions": {
+        "define": ["DEBUG", "TRACE"]
+      }
+    },
+    "release": {
+      "compilationOptions": {
+        "define": ["RELEASE", "TRACE"],
+        "optimize": true
+      }
+    }
+  },
+  "compilationOptions": {
+    "define": ["SOMETHING"],
+    "allowUnsafe": true,
+    "warningsAsErrors" : true,
+    "languageVersion": "experimental"
+  },
+  "compile": ["**/*.cs"],
+  "exclude": [
+    "wwwroot",
+    "node_modules",
+    "bower_components"
+  ],
+  "packExclude": [
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
+  ],
+  "publishExclude": [
+    "node_modules",
+    "bower_components",
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
+  ]
+}

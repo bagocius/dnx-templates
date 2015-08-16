@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "name": "app.aspnet.static_min",
+  "description": "A minimal ASP.NET 5 Static Web App project template targeting .NET Core 5.0 and .NET Framework 4.5.1.",
+  "homepage": "https://github.com/user/repo#readme",
+  "license": "UNLICENSED",
+  "private": true,
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "contributors": [],
+  "maintainers": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/user/repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/user/repo/issues"
+  },
+  "directories": {
+    "test": ""
+  },
+  "config": {},
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,4 @@
+/* SITE */
+  Last Update: 1/1/1900
+  Standards: HTML5, CSS3, JavaScript
+  Components: .NET Core, ASP.NET, Node.js

@@ -1,0 +1,7 @@
+{
+  "name": "app.aspnet.static",
+  "logging": {
+    "level": "debug",
+    "sourceCodeLines": 10
+  }
+}

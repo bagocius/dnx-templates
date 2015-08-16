@@ -1,0 +1,25 @@
+{
+  "version": "0.0.1",
+  "name": "dnx-templates",
+  "description": "A set of standardized & minimal project templates for building apps targeting the .NET Execution Environment (DNX).",
+  "homepage": "https://github.com/bagocius/dnx-templates#readme",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Chris Bagocius",
+    "url": "https://github.com/bagocius"
+  },
+  "contributors": [],
+  "maintainers": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagocius/dnx-templates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bagocius/dnx-templates/issues"
+  },
+  "config": {},
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}

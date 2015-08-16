@@ -1,0 +1,63 @@
+{
+  "version": "0.0.1",
+  "description": "lib.classLibrary_min",
+  "summary": "A minimal Class Library project template targeting .NET Core 5.0 and .NET Framework 4.5.1.",
+  "authors": [""],
+  "commands": {},
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {}
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Console": "4.0.0-beta-23213"
+      }
+    }
+  },
+  "dependencies": {},
+  "scripts": {
+    "prerestore": "",
+    "postrestore": "",
+    "prebuild": "",
+    "postbuild": "",
+    "prepack": "",
+    "postpack": ""
+  },
+  "configurations": {
+    "Debug": {
+      "compilationOptions": {
+        "define": ["DEBUG", "TRACE"]
+      }
+    },
+    "Release": {
+      "compilationOptions": {
+        "define": ["RELEASE", "TRACE"],
+        "optimize": true
+      }
+    }
+  },
+  "compilationOptions": {
+    "define": ["SOMETHING"],
+    "allowUnsafe": true,
+    "warningsAsErrors" : true,
+    "languageVersion": "experimental"
+  },
+  "compile": ["**/*.cs"],
+  "exclude": [
+    "wwwroot",
+    "node_modules",
+    "bower_components"
+  ],
+  "packExclude": [
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
+  ],
+  "publishExclude": [
+    "node_modules",
+    "bower_components",
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
+  ]
+}
