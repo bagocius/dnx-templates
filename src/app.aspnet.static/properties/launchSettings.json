@@ -1,0 +1,38 @@
+﻿{
+  "profiles": {
+    "kestrel": {
+      "commandName": "kestrel",
+      "sdkVersion": "dnx-clr-win-x64.1.0.0-beta6",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:5001",
+      "environmentVariables": {}
+    },
+    "kestrel-development": {
+      "commandName": "kestrel-development",
+      "sdkVersion": "dnx-clr-win-x64.1.0.0-beta6",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:5001",
+      "environmentVariables": {
+        "ASPNET_ENV": "development"
+      }
+    },
+    "kestrel-staging": {
+      "commandName": "kestrel-staging",
+      "sdkVersion": "dnx-clr-win-x64.1.0.0-beta6",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:5001",
+      "environmentVariables": {
+        "ASPNET_ENV": "staging"
+      }
+    },
+    "kestrel-production": {
+      "commandName": "kestrel-production",
+      "sdkVersion": "dnx-clr-win-x64.1.0.0-beta6",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:5001",
+      "environmentVariables": {
+        "ASPNET_ENV": "production"
+      }
+    }
+  }
+}
