@@ -4,9 +4,9 @@ A set of standardized & minimal project templates for building apps targeting th
 
 <br>
 
-| DNX version  | Targeted frameworks                    |
-|:------------ |:-------------------------------------- |
-| 1.0.0-beta6  | .NET Core 5.0<br>.NET Framework 4.5.1  |
+| Status | DNX version | Targeted frameworks |
+|:-----:|:----- |:----- |
+| [![Build Status](https://travis-ci.org/bagocius/dnx-templates.svg?branch=master)](https://travis-ci.org/bagocius/dnx-templates) | 1.0.0-beta6 | .NET Core 5.0<br>.NET Framework 4.5.1 |
 
 <br>
 
