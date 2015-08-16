@@ -23,6 +23,7 @@ packages/
 artifacts/
 PublishProfiles/
 .settings/
+.vs/
 *.user
 *.suo
 *.cache
