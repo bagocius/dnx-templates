@@ -41,33 +41,32 @@ A set of standardized & minimal project templates for building apps targeting th
 
 #### .NET Core 5.0
 
-- [Home](http://dotnet.github.io/core/)
-- [Docs](http://dotnet.readthedocs.org/en/latest/)
-- [Repo - .NET Core](https://github.com/dotnet/corefx)
-- [Repo - .NET Core Framework](https://github.com/dotnet/corefx)
-- [Repo - .NET Core Runtime](https://github.com/dotnet/coreclr)
-- [Repo - .NET Core Compiler Platform ("Roslyn")](https://github.com/dotnet/roslyn)
+- [home page](http://dotnet.github.io/core/)
+- [documentation](http://dotnet.readthedocs.org/en/latest/)
+- [repo - .NET Core](https://github.com/dotnet/corefx)
+- [repo - .NET Core Framework](https://github.com/dotnet/corefx)
+- [repo - .NET Core Runtime](https://github.com/dotnet/coreclr)
+- [repo - .NET Core Compiler Platform ("Roslyn")](https://github.com/dotnet/roslyn)
 
 #### .NET Execution Environment (DNX)
 
-- [Docs](http://dotnet.readthedocs.org/en/latest/dnx/index.html)
-- [Repo](https://github.com/aspnet/DNX)
+- [documentation](http://dotnet.readthedocs.org/en/latest/dnx/index.html)
+- [repo](https://github.com/aspnet/DNX)
 
 #### ASP.NET 5
 
-- [Home](http://www.asp.net/vnext)
-- [Docs](http://docs.asp.net/en/latest/index.html)
-- [Wiki](https://github.com/aspnet/Home/wiki) / [Servers](https://github.com/aspnet/Home/wiki/Servers)
-- [Repo - Getting started](https://github.com/aspnet/Home)
-- [Repo - MVC](https://github.com/aspnet/Mvc)
-- [Repo - Dependency Injection](https://github.com/aspnet/DependencyInjection)
-- [Repo - Entity Framework](https://github.com/aspnet/EntityFramework)
-- [Repo - Identity](https://github.com/aspnet/Identity)
-- [Repo - SignalR-Server](https://github.com/aspnet/SignalR-Server)
-- [Servers](https://github.com/aspnet/Home/wiki/Servers)
+- [home page](http://www.asp.net/vnext)
+- [documentation](http://docs.asp.net/en/latest/index.html)
+- [wiki](https://github.com/aspnet/Home/wiki) / [servers](https://github.com/aspnet/Home/wiki/Servers)
+- [repo - Getting started](https://github.com/aspnet/Home)
+- [repo - MVC](https://github.com/aspnet/Mvc)
+- [repo - Dependency Injection](https://github.com/aspnet/DependencyInjection)
+- [repo - Entity Framework](https://github.com/aspnet/EntityFramework)
+- [repo - Identity](https://github.com/aspnet/Identity)
+- [repo - SignalR-Server](https://github.com/aspnet/SignalR-Server)
 
 #### Other
 
-- [xUnit.net - Docs](http://xunit.github.io/)
-- [xUnit.net - Repo](https://github.com/xunit/xunit)
-- [.NET Foundation Repos](http://dotnet.github.io/)
+- [xUnit.net - documentation](http://xunit.github.io/)
+- [xUnit.net - repo](https://github.com/xunit/xunit)
+- [.NET Foundation repos](http://dotnet.github.io/)
